@@ -1,0 +1,161 @@
+body {
+  background-color: #E1E1E1;
+  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, sans-serif !important;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+.fr {
+  float: right;
+}
+
+.content {
+  width: 1400px;
+  margin: 0px auto;
+}
+
+.navbar-default {
+  background-image: none;
+  filter: none;
+  box-shadow: none;
+  border: none;
+}
+
+.headerWrap {
+  background-color: #f8f8f8;
+}
+
+header {
+  width: 1400px;
+  margin: 0px auto;
+}
+
+ul.pagination li a.onhlight {
+  color: #80bd01;
+}
+
+.navbar-form .form-control {
+  display: inline-block;
+  width: 233px;
+  vertical-align: middle;
+}
+
+#main {
+  width: 1400px;
+  height: 2144px;
+  background-color: #E1E1E1;
+}
+
+#main article {
+  width: 1095px;
+  height: 2124px;
+  float: left;
+  background-color: #FFFFFF;
+}
+
+#main article .ol_style {
+  padding-left: 10px;
+}
+
+#main article .header ul li > a {
+  color: #80bd01;
+}
+
+#main article .header ul li > a.active {
+  background-color: #80bd01;
+  color: #fff;
+}
+
+#main article .liStyle {
+  height: 50px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#main article .liStyle .datetime {
+  display: inline-block;
+  width: 93px;
+  color: #778087;
+  text-decoration: none;
+}
+
+#main article .liStyle .datetime .date {
+  margin-left: 5px;
+  padding-right: 5px;
+  line-height: 50px;
+  display: inline-block;
+  min-width: 50px;
+  font-size: 12px;
+  text-align: right;
+}
+
+#main article .liStyle .topic-title {
+  color: #333;
+  max-width: 70%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#main article .liStyle .topic-tab {
+  background-color: #e5e5e5;
+}
+
+#main article .liStyle .topic-tab.active {
+  background: #80bd01;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+#main article .liStyle .hightlight {
+  background: #80bd01;
+}
+
+#main article .liStyle .reply_count {
+  display: inline-block;
+  width: 70px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#main article .liStyle:hover {
+  background-color: #F6F6F6;
+}
+
+#main article .header {
+  background-color: #F6F6F6;
+}
+
+#main article .avatar {
+  width: 30px;
+  height: 30px;
+}
+
+#main article .smallAvatar {
+  width: 18px;
+  height: 18px;
+}
+
+#main aside {
+  width: 290px;
+  height: 1242px;
+  float: right;
+  background-color: #c7d2d4;
+}
+
+#footer_main {
+  width: 1400px;
+  margin: 0 auto;
+  height: 155px;
+  padding: 20px 0;
+  background-color: #80bd01;
+}
